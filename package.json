@@ -1,0 +1,24 @@
+{
+  "name": "zxt-blog",
+  "version": "1.0.0",
+  "description": "朱小通的个人博客",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z308790037/zxt-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z308790037/zxt-blog/issues"
+  },
+  "homepage": "https://github.com/z308790037/zxt-blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.1"
+  }
+}
