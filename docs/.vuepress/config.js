@@ -4,7 +4,7 @@ module.exports = {
     evergreen: true,
     base: '/zxt-blog/',
     themeConfig: {
-        lastUpdated: 'Last Updated', 
+        displayAllHeaders: true,
         smoothScroll: true,
         nav: [
           { text: '主页', link: '/' },
@@ -24,13 +24,13 @@ module.exports = {
         sidebar: {
           '/notes/front/': [{
             title: 'js基础',
-            children:['', 'js_one', 'js_two']
+            children:['', 'js_day1', 'js_day2']
           },{
             title: '框架相关',
             children:['frame']
           },{
             title: '其他',
-            children:['other']
+            children:['vue_predraw']
           }]
         },
     }

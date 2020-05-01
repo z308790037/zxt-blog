@@ -1,7 +1,7 @@
 ---
 home: true
-actionText: zxt的博客 →
-actionLink: /guide/
+actionText: zxt的笔记目录 →
+actionLink: /notes/
 search: true
 features:
 - title: 个人介绍
