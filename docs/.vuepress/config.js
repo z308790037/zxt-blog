@@ -2,7 +2,7 @@ module.exports = {
     title: '朱小通',
     description: '欢迎来到我的主页，这是我的地盘，但也希望留下您的脚印~',
     evergreen: true,
-    base: 'zxt-blog',
+    base: '/zxt-blog/',
     themeConfig: {
         lastUpdated: 'Last Updated', 
         smoothScroll: true,
