@@ -56,3 +56,7 @@ console.log(obj);
 ::: tip 注意
 object包括： {}, [], /^$/, 日期对象 Math, 实例对象...
 :::
+
+## 数组（array）的所有方法
+
+## 对象（object）的所有方法
