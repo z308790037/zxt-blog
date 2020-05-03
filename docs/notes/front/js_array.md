@@ -53,7 +53,7 @@ let first = fruits.shift();
 fruits.push('Mango');
 // ["Strawberry", "Banana", "Mango"]
 
-let v3 pos = fruits.indexOf('Banana');
+let pos = fruits.indexOf('Banana');
 // 1
 ```
 ## slice:删除/复制数组
