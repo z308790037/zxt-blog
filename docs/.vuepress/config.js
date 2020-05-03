@@ -22,8 +22,8 @@ module.exports = {
         ],
         sidebar: {
           '/notes/front/': [{
-            title: 'js基础',
-            children:[['', '介绍'], 'js_day1', 'js_day2']
+            title: '前端基础',
+            children:[['', '介绍'], ...getFrontCatogry()]
           },{
             title: '框架相关',
             children:['frame']
@@ -33,4 +33,15 @@ module.exports = {
           }]
         },
     }
+}
+
+
+// 前端基础的目录
+function getFrontCatogry () {
+  return [
+    'js_day1',
+    'js_array',
+    'js_object',
+    'js_day2',
+  ]
 }
