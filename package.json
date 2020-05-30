@@ -4,7 +4,7 @@
   "description": "朱小通的个人博客",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "repository": {

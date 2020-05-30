@@ -11,10 +11,11 @@ module.exports = {
             text: '技术笔记',
             ariaLabel: 'notes',
             items: [
-              { text: '前端笔记', link: '/notes/front/' },
-              { text: 'node笔记', link: '/notes/node/' },
-              { text: 'java笔记', link: '/notes/java/' },
-              { text: 'python笔记', link: '/notes/python/' },
+              { text: '前端基础', link: '/notes/front/' },
+              { text: 'react', link: '/notes/react/' },
+              // { text: 'node', link: '/notes/node/' },
+              // { text: 'java', link: '/notes/java/' },
+              // { text: 'python', link: '/notes/python/' },
             ]
           },
           { text: '技术分享', link: '/share/'},
@@ -30,6 +31,10 @@ module.exports = {
           },{
             title: '其他',
             children:['vue_predraw']
+          }],
+          '/notes/react/': [{
+            title: 'react入门',
+            children:[['', 'react介绍'], ...getReactCatogry()]
           }]
         },
     }
@@ -43,5 +48,12 @@ function getFrontCatogry () {
     'js_array',
     'js_object',
     'js_day2',
+  ]
+}
+
+//react入门目录
+function getReactCatogry () {
+  return [
+   
   ]
 }

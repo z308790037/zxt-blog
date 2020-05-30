@@ -86,9 +86,26 @@ let shallowCopy = fruits.slice();
 slice方法什么都不传则表示复制数组
 :::
 
+<style>
+    .box{
+    }
+
+    .box p {
+        width: 100px;
+        border: 1px solid red;
+        text-align-last: justify;
+        vertical-align: top;
+    }
+</style>
+<div class="box">
+    <p>姓名</p>
+    <p>s</p>
+    <p>姓大健名</p>
+    <p>姓名</p>
+</div>
 
 <script>
-    let fruits = ['Apple', 'Banana'];
-    let last = fruits.unshift('Strawberry'); // remove Orange (from the end)
-console.log(last, fruits);
+    let arr1 = [1, 32, 4, 5];
+    const arr = Math.max.call(Math, 2, 3, 4,5);
+    console.log(typeof [])
 </script>
