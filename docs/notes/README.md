@@ -8,3 +8,4 @@
 - [node笔记](./node/README.md)
 - [java笔记](./java/README.md)
 - [python笔记](./python/README.md)
+- [学习计划](./study/README.md)

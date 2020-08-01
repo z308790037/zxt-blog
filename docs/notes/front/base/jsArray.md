@@ -106,6 +106,6 @@ slice方法什么都不传则表示复制数组
 
 <script>
     let arr1 = [1, 32, 4, 5];
-    const arr = Math.max.call(Math, 2, 3, 4,5);
-    console.log(typeof [])
+    const arr = Math.max.call(Math, ...arr1);
+    console.log(arr)
 </script>
